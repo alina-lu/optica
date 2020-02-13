@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(220, 220, 250, 0.582);
+  color: rgb(33, 14, 180);
+  margin: 10px;
+}
+
+header > div {
+  float: left;
+  text-align: center;
+  font-size: 2vw;
+}
+.logo {
+  width: 25vw;
+}
+.add1 {
+  width: 30%;
+  color: rgb(219, 7, 42);
+  padding-top: 2%;
+  padding-left: 1%;
+  font-size: 1.8vw;
+  text-shadow: 1px 1px 2px black;
+}
+.add2 {
+  width: 41%;
+  padding-top: 2%;
+  font-size: 1.8vw;
+  padding-left: 1%;
+  text-shadow: 1px 1px 2px black;
+}
+.clear {
+  clear: left;
+}
+.navbar a {
+  background-color: rgba(238, 24, 24, 0.815);
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 40px;
+  padding: 20px 0;
+  float: left;
+  width: 20%;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  box-sizing: border-box;
+}
+.clear2 {
+  clear: left;
+}
+.welcomeContainer {
+  position: relative;
+}
+.welcomeText {
+  position: absolute;
+  color: rgb(219, 7, 42);
+  font-size: 3vw;
+}

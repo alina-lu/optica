@@ -1,82 +1,178 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgba(220, 220, 250, 0.582);
+  background-color: rgba(202, 202, 245, 0.678);
   color: rgb(33, 14, 180);
   margin: 10px;
-}
-header > div {
-  float: left;
-  text-align: center;
-  font-size: 2vw;
-}
-.logo {
-  width: 25vw;
-  border-radius: 1vw;
+  min-width: 400px;
+  font-size: 20px;
 }
 .add1 {
-  width: 30%;
-  color: rgb(219, 7, 42);
-  padding-top: 2%;
-  padding-left: 1%;
-  font-size: 1.8vw;
+  color: rgb(33, 14, 180);
+  font-size: 15px;
   text-shadow: 1px 1px 2px black;
+  text-align: center;
 }
+
 .add2 {
-  width: 41%;
-  padding-top: 2%;
-  font-size: 1.8vw;
-  padding-left: 1%;
+  color: rgb(219, 7, 42);
+  font-size: 15px;
+  padding-left: 2%;
   text-shadow: 1px 1px 2px black;
-}
-.clear {
-  clear: left;
+  text-align: center;
+  overflow: hidden;
 }
 .navbar a {
-  background-color: rgba(238, 24, 24, 0.815);
-  text-decoration: none;
-  text-align: center;
-  font-weight: bold;
-  margin: 15px 0 18px 0;
-  padding: 15px 0;
-  float: left;
-  width: 20%;
-  color: rgb(255, 255, 255);
+    background-color: rgba(238, 24, 24, 0.815);
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    margin: 15px 0 18px 0;
+    padding: 15px 0;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    box-sizing: border-box;
+    border: 1px solid rgba(33, 14, 180, 0.15);
+  }
+@media (min-width: 0) {
+  h2 {
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+  }
+  .h2 {
+    color: rgba(238, 24, 24, 0.815);
+  }
+  .logo {
+    display: none;
+  }
+  .add1 {
+    float: left;
+    width: 38%;
+  }
+  .add2 {
+    float: left;
+    width: 60%;
+  }
+  .clear {
+    clear: left;
+  }
+  .navbar{
+    flex: content;
+  }
+  .navbar a{
+    width: 20%;
+  }
+}
+@media (min-width: 768px) {
+  header > div {
+    float: left;
+    text-align: center;
+    font-size: 2vw;
+  }
+  h2 {
+    display: none;
+  }
+  .logo {
+    display: block;
+    width: 25vw;
+    border-radius: 1vw;
+  }
+  .add1 {
+    width: 30%;
+  }
+  .add2 {
+    width: 41%;
+    padding-top: 2%;
+    font-size: 1.8vw;
+    padding-left: 1%;
+    text-shadow: 1px 1px 2px black;
+  }
+  .clear {
+    clear: left;
+  }
+  .navbar a {
+    background-color: rgba(238, 24, 24, 0.815);
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    margin: 15px 0 18px 0;
+    padding: 15px 0;
+    float: left;
+    width: 20%;
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+    box-sizing: border-box;
+    border: 1px solid rgba(33, 14, 180, 0.15);
+  }
+  .navbar a:hover {
+    background-color: rgba(238, 24, 24, 0.575);
+    font-size: 2.4vw;
+    padding: 12.5px 0;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.664);
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+  }
+  .navbar a:active {
+    background-color: rgba(238, 24, 24, 0.335);
+    font-size: 2.4vw;
+    padding: 12.5px 0;
+  }
+  #active {
+    background-color: rgba(255, 255, 255, 0.815);
+    color: rgba(238, 24, 24, 1);
+    font-size: 2vw;
+    padding: 15px 0;
+    border: 1px solid rgba(33, 14, 180, 0.3);
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgba(238, 24, 24, 0.336);
+  }
+  #active:hover {
+    background-color: rgba(238, 24, 24, 0.575);
+    font-size: 2.4vw;
+    padding: 12.5px 0;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.664);
+    color: rgba(255, 255, 255, 0.815);
+  }
+  .clear2 {
+    clear: left;
+  }
+  .welcomeContainer {
+    position: relative;
+  }
+  .welcomeText {
+    position: absolute;
+    font-size: 2.3vw;
+    margin: 2vw 0 0 22vw;
+    color: rgb(247, 14, 14);
+    text-shadow: 0 0 6px rgba(220, 220, 250, 1), 1px 1px 0 rgb(249, 250, 220);
+  }
+
+  .asidelimg {
+    float: left;
+    width: 18vw;
+  }
+  .welcome {
+    float: left;
+    width: 55vw;
+    margin: 0 10px;
+  }
+  .asiderimg {
+    float: left;
+    width: 18vw;
+  }
+  .clear3 {
+    clear: both;
+  }
+}
+.info {
+  text-align: justify;
+  text-indent: 50px;
+  line-height: 1.8;
+  word-spacing: 10px;
   font-size: 2vw;
-  box-sizing: border-box;
-  border: 1px solid rgba(33, 14, 180, 0.15);
 }
-.navbar a:hover {
-  background-color: rgba(238, 24, 24, 0.575);
-  font-size: 2.4vw;
-  padding: 12.5px 0;
-  text-shadow: 0 0 5px rgba(255, 255, 255, 0.664);
-}
-.navbar a:active {
-  background-color: rgba(238, 24, 24, 0.335);
-  font-size: 2.4vw;
-  padding: 12.5px 0;
-}
-#active {
-  background-color: rgba(255, 255, 255, 0.815);
-  color: rgba(238, 24, 24, 0.815);
-  font-size: 2.4vw;
-  padding: 12.5px 0;
-  border: 1px solid rgba(33, 14, 180, 0.3);
-  box-shadow: 0 0 5px rgb(255, 255, 255);
-  text-shadow: 0 0 5px rgba(238, 24, 24, 0.336);
-}
-.clear2 {
-  clear: left;
-}
-.welcomeContainer {
-  position: relative;
-}
-.welcomeText {
-  position: absolute;
-  color: rgb(219, 7, 42);
-  font-size: 4vw;
-  margin: 5vw 0 0 5vw;
+.info h3 {
+  text-align: center;
+  text-indent: 0em;
+  line-height: 1.8;
   color: rgb(247, 14, 14);
-  text-shadow: 0 0 6px rgba(220, 220, 250, 1), 1px 1px 0 rgb(249, 250, 220);
-  font-size: 4vw;
+  text-shadow: 1px 1px 2px black;
 }

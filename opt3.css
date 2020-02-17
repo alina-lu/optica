@@ -4,7 +4,6 @@ body {
   color: rgb(33, 14, 180);
   margin: 10px;
 }
-
 header > div {
   float: left;
   text-align: center;
@@ -12,6 +11,7 @@ header > div {
 }
 .logo {
   width: 25vw;
+  border-radius: 1vw;
 }
 .add1 {
   width: 30%;
@@ -36,14 +36,34 @@ header > div {
   text-decoration: none;
   text-align: center;
   font-weight: bold;
-  margin-top: 25px;
-  margin-bottom: 40px;
-  padding: 20px 0;
+  margin: 15px 0 18px 0;
+  padding: 15px 0;
   float: left;
   width: 20%;
   color: rgb(255, 255, 255);
-  font-size: 18px;
+  font-size: 2vw;
   box-sizing: border-box;
+  border: 1px solid rgba(33, 14, 180, 0.15);
+}
+.navbar a:hover {
+  background-color: rgba(238, 24, 24, 0.575);
+  font-size: 2.4vw;
+  padding: 12.5px 0;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.664);
+}
+.navbar a:active {
+  background-color: rgba(238, 24, 24, 0.335);
+  font-size: 2.4vw;
+  padding: 12.5px 0;
+}
+#active {
+  background-color: rgba(255, 255, 255, 0.815);
+  color: rgba(238, 24, 24, 0.815);
+  font-size: 2.4vw;
+  padding: 12.5px 0;
+  border: 1px solid rgba(33, 14, 180, 0.3);
+  box-shadow: 0 0 5px rgb(255, 255, 255);
+  text-shadow: 0 0 5px rgba(238, 24, 24, 0.336);
 }
 .clear2 {
   clear: left;
@@ -54,5 +74,9 @@ header > div {
 .welcomeText {
   position: absolute;
   color: rgb(219, 7, 42);
-  font-size: 3vw;
+  font-size: 4vw;
+  margin: 5vw 0 0 5vw;
+  color: rgb(247, 14, 14);
+  text-shadow: 0 0 6px rgba(220, 220, 250, 1), 1px 1px 0 rgb(249, 250, 220);
+  font-size: 4vw;
 }

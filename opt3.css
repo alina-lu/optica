@@ -12,66 +12,44 @@ body {
   text-shadow: 1px 1px 2px black;
   text-align: center;
 }
-
 .add2 {
   color: rgb(219, 7, 42);
   font-size: 15px;
   padding-left: 2%;
   text-shadow: 1px 1px 2px black;
   text-align: center;
-  overflow: hidden;
 }
 .navbar a {
-    background-color: rgba(238, 24, 24, 0.815);
-    text-decoration: none;
-    text-align: center;
-    font-weight: bold;
-    margin: 15px 0 18px 0;
-    padding: 15px 0;
-    color: rgb(255, 255, 255);
-    font-size: 15px;
-    box-sizing: border-box;
-    border: 1px solid rgba(33, 14, 180, 0.15);
-  }
-@media (min-width: 0) {
-  h2 {
-    text-align: center;
-    text-shadow: 1px 1px 2px black;
-  }
-  .h2 {
-    color: rgba(238, 24, 24, 0.815);
-  }
-  .logo {
-    display: none;
-  }
-  .add1 {
-    float: left;
-    width: 38%;
-  }
-  .add2 {
-    float: left;
-    width: 60%;
-  }
-  .clear {
-    clear: left;
-  }
-  .navbar{
-    flex: content;
-  }
-  .navbar a{
-    width: 20%;
-  }
+  background-color: rgba(238, 24, 24, 0.815);
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  margin: 15px 0 18px 0;
+  padding: 15px 0;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  box-sizing: border-box;
+  border: 1px solid rgba(33, 14, 180, 0.15);
 }
-@media (min-width: 768px) {
-  header > div {
+h2 {
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+}
+.h2header {
+  color: rgba(238, 24, 24, 0.815);
+}
+.logo {
+  display: none;
+}
+.clear {
+  clear: left;
+}
+header > div {
     float: left;
     text-align: center;
     font-size: 2vw;
   }
-  h2 {
-    display: none;
-  }
-  .logo {
+    .logo {
     display: block;
     width: 25vw;
     border-radius: 1vw;
@@ -161,7 +139,6 @@ body {
   .clear3 {
     clear: both;
   }
-}
 .info {
   text-align: justify;
   text-indent: 50px;

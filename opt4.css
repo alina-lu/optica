@@ -243,12 +243,14 @@ background-color: rgba(33, 14, 180, 0.2);
   background-image: linear-gradient( to right, rgba(33, 14, 180, 0.6),rgba(202, 202, 245, 0.6), rgba(238, 24, 24, 0.6) );
   padding: 10px 0;
   font-size: 20px;
+  position: fixed;
 }
 .h1header {
   color: rgba(238, 24, 24, 0.815);
 }
 header > div {
-float: none;
+margin: 60px 0 0 0;
+    float: none;
   text-align: center;
   font-size: 14px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.568);
@@ -283,6 +285,8 @@ float: none;
 }
 .navbar a:hover {
   background-color: rgba(238, 24, 24, 0.575);
+  font-size: 15px;
+  padding: 10px 0 9px;
 }
 .navbar a:active {
   background-color: rgba(238, 24, 24, 0.335);
@@ -312,10 +316,9 @@ float: none;
 }
 .welcomeText {
   position: absolute;
-  width: 98%;
+  width: 100%;
   text-align: center;
-  margin: 3vw 0 0 0;
-  font-size: 4vw;
+  font-size: 14px;
   color: rgb(238, 24, 24, 1);
   text-shadow: 0 0 6px rgba(220, 220, 250, 1), 1px 1px 0 rgb(249, 250, 220);
 }
